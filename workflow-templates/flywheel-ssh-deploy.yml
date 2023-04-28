@@ -1,14 +1,7 @@
 name: Flywheel SSH Deploy
 on: 
-  workflow_call:
-    secrets:
-      SSH_PRIVATE_KEY:
-        required: true
-      REMOTE_USER:
-        required: true
-      REMOTE_TARGET:
-        required: true
-
+  workflow_dispatch:
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
