@@ -1,5 +1,5 @@
 {
-  "name": "Flywheel SSH Deploy Workflow"
-  "description": "Vincent Design Inc. starter workflow to deploy WordPress sites onto flywheel server"
-  "iconName": "octicon ruby"
+  "name": "Flywheel SSH Deploy Workflow",
+  "description": "Vincent Design Inc. starter workflow to deploy WordPress sites onto flywheel server",
+  "iconName": "octicon ruby",
 }
