@@ -1,0 +1,36 @@
+name: Flywheel SSH Deploy
+on: 
+  workflow_call:
+    secrets:
+      SSH_PRIVATE_KEY:
+        required: true
+      REMOTE_USER:
+        required: true
+      REMOTE_TARGET:
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16.x'
+    - name: Install PHP Composer
+      uses: php-actions/composer@v6
+      with:
+        php_version: "7.4"
+    - name: Install npm dependencies
+      run: npm install
+    - name: Run build task --if-present
+      run: npm run build:production
+    - name: Deploy to Server
+      uses: easingthemes/ssh-deploy@v4.1.7
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        REMOTE_HOST: ssh.getflywheel.com
+        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        REMOTE_PORT: '22 -o PubkeyAcceptedKeyTypes=+ssh-rsa'
+        TARGET: ${{ secrets.REMOTE_TARGET }}
