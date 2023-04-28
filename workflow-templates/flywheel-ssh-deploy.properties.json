@@ -1,7 +1,7 @@
 {
     "name": "Flywheel SSH Deploy",
     "description": "Vincent Design CI/CD pipeline for WordPress sites",
-    "iconName": "octicons ruby",
+    "iconName": "octicons git-pull-request",
     "categories": [
         "php"
     ]
