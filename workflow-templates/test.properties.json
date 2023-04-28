@@ -1,8 +1,0 @@
-{
-    "name": "Test",
-    "description": "Octo Organization CI starter workflow.",
-    "iconName": "example-icon",
-    "categories": [
-        "php"
-    ]
-}
