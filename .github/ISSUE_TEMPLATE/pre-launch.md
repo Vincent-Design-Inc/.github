@@ -9,7 +9,7 @@ assignees: ''
 
 ## Site Pre-launch Checklist
 
-No site can launch while this issue is open. This issue requires signoff by senior staff to be complete.
+No site can launch while this issue is open. This issue requires signoff by senior staff to be complete.  When you add this issue, create a pull request for it, and add Keith as a reviewer.
 
 ### Mandatory Plugins Installed and Activated - [Plugin docs](https://docs.vincentdevelopment.ca/docs/processes/plugins.html)
 All licensed plugins **MUST** have their keys installed and activated.
