@@ -7,12 +7,14 @@ assignees: ''
 ---
 
 ## Site Pre-launch Checklist
-No site can launch while this issue is open. This issue requires signoff by senior staff to be complete.
+> [!IMPORTANT]
+> No site can launch while this issue is open. This issue requires signoff by senior staff to be complete.
 
 ### Mandatory Plugins Installed and Activated - [Plugin docs](https://docs.vincentdevelopment.ca/docs/processes/plugins.html)
-All licensed plugins **MUST** have their keys installed and activated.
-
-All plugins **MUST** be updated to the most current versions unless there's a compelling reason not to.
+> [!IMPORTANT]
+> All licensed plugins **MUST** have their keys installed and activated.
+>
+> All plugins **MUST** be updated to the most current versions unless there's a compelling reason not to.
 
 - [ ] ACF Pro (Licensed)
 - [ ] Akismet (Licensed)
