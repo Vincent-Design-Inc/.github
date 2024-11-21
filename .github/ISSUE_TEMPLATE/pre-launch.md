@@ -20,17 +20,17 @@ assignees: ''
 - [ ] Akismet (Licensed)
 - [ ] Simple History
 - [ ] Imagify (Licensed)
-- [ ] The SEO Framework
-- [ ] Google Sitekit
-- [ ] WP Rocket (Licensed)
+- [ ] The SEO Framework (Enable post-launch)
+- [ ] Google Sitekit (Enable post-launch)
+- [ ] WP Rocket (Licensed, enable post-launch)
 - [ ] Gravity Forms (Licensed)
 - [ ] All plugins updated
 
 ### Analytics - [Analytics docs](https://docs.vincentdevelopment.ca/docs/processes/analytics.html)
-- [ ] Google Analytics configured (via Sitekit)
+- [ ] Google Analytics configured (via Sitekit, post-launch)
 
 ### Uptime Monitoring
-- [ ] Site added to Uptime Robot
+- [ ] Site added to Uptime Robot (Post-launch)
 
 ### Forms Testing
 - [ ] Email sent to and recieved at your email for all on-site forms
